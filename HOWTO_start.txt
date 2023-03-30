@@ -1,0 +1,8 @@
+open powershell
+
+cd D:\lina_lau\C339_datafundamentals\data_analysis_project\bmi_dashboard
+python -m panel serve .\bmi_interactive_dashboard.py --address 0.0.0.0  --allow-websocket-origin=* --port 8082
+
+go to Chrome
+
+http://192.168.178.51:8082/
